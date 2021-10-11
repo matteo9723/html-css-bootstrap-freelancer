@@ -1,0 +1,15 @@
+*{
+  box-sizing: border-box;
+}
+
+[class*="col-"]{
+  border: 1px solid black;
+}
+
+.image{
+  height: 100px;
+  width: 100%;
+  background-color: blueviolet;
+  border-radius: 150px;
+  margin-top: 20px;
+}
