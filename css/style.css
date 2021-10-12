@@ -1,3 +1,5 @@
+/* GLOBAL  */
+
 .sc-bg-blue{
   background-color: #2C3D50;
 }
@@ -15,44 +17,97 @@
   margin: 0 auto;
 }
 
+.bold{
+  font-weight: bolder;
+}
+
+.sc-btn{
+  border: 1px solid white;  
+  padding: 5px 15px;
+  border-radius: 5px;
+  transition: all 1s;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.sc-btn:hover{
+ background-color: white;
+ color: #2C3D50;
+}
+
+
+/* HEADER  */
+
 header{
   height: 80px;
   color: white;
 }
+
+header .menu-large ul{
+  text-decoration: none;
+  padding-top: 10px;
+}
+
+header .menu-large ul li{
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+header .menu-large ul li a{
+  text-decoration: none;
+  font-weight: bolder;
+  color: white;
+}
+
+.menu-small i{
+  color: gray;
+  padding: 5px 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  transition: all 1s;
+  cursor: pointer;
+}
+
+.menu-small:hover i{
+  color: white;
+  border: 1px solid white;
+}
+
+/* JUMBOTRON  */
+
 .sc-jumbotrone{
   margin-top: 80px;
 }
 .sc-inner-jumbo{
-  background-color: cadetblue;
   width: 800px;
   max-width: 80%;
   margin: 0 auto;
-
-  /* height placeholder*/
-  height: 300px;
+  text-align: center;
+  color: white;
 }
+
+.sc-inner-jumbo img{
+  width: 40%;
+}
+
 
 .sc-box{
-  background-color: chocolate;
-  /* height margin placeholder*/
   margin: 10px;
-  height: 300px;
 }
+
+.sc-box img{
+  width: 100%;
+  border-radius: 20px;
+}
+
+/* ABOUT  */
 
 .about{
   color:white;
 }
 
-.sc-footer-top{
-  color: white;
-  background-color: #39546D;
-}
-
-.sc-footer-bottom {
-  padding: 30px 0;
-  color: white;
-  text-align: center;
-} 
+/* FORM  */
 
 form{
   padding-top: 30px;
@@ -67,4 +122,35 @@ form{
 .dt-bg-green{
   background-color: #1ABC9C;
   border-color: #1ABC9C;
+  cursor: pointer;
 }
+
+/* FOOTER  */
+
+.sc-footer-top{
+  color: white;
+  background-color: #39546D;
+}
+
+.sc-footer-bottom {
+  padding: 30px 0;
+  color: white;
+  text-align: center;
+} 
+
+
+
+footer span i {
+  border: 1px solid white;
+  height: 40px;
+  width: 40px;
+  padding-top: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+footer p span {
+  color: #1ABC9C;
+  cursor: pointer;
+}
+
