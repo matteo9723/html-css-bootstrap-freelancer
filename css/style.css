@@ -94,6 +94,29 @@ header .menu-large ul li a{
 
 .sc-box{
   margin: 10px;
+  position: relative;
+}
+
+.sc-box .overlay{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(0, 225, 255,.5);
+  z-index: 999;
+  border-radius: 20px;
+  display: none;
+  transition: all 2s;
+  color: white;
+  font-size: 100px;
+}
+.sc-box .overlay i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.sc-box:hover .overlay{
+  display: block;
 }
 
 .sc-box img{
