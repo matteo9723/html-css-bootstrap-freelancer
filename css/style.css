@@ -108,12 +108,14 @@ header .menu-large ul li a{
   transition: all 2s;
   color: white;
   font-size: 100px;
+  transition:  display 2s;
 }
 .sc-box .overlay i {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
+  
 }
 .sc-box:hover .overlay{
   display: block;
